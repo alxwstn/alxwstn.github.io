@@ -27,7 +27,7 @@
     box-shadow: var(--shadow-xl);
   }
 
-  .hero-image {
+  .header-image {
     clip-path: circle(50%);
   }
 }
