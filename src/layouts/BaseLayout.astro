@@ -1,0 +1,25 @@
+---
+import "../styles/global.css";
+import Navigation from "../components/Navigation.astro";
+const { pageTitle } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Alexandra Walton Weston</title>
+  </head>
+  <body>
+    <Navigation />
+    <div class="flex h-screen items-center justify-center wip-bg">
+      <div class="card border border-gray-400 text-center m-2">
+        <h1>{pageTitle}</h1>
+      </div>
+      <slot />
+    </div>
+  </body>
+</html>

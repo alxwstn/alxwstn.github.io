@@ -26,4 +26,8 @@
     padding: --spacing(6);
     box-shadow: var(--shadow-xl);
   }
+
+  .hero-image {
+    clip-path: circle(50%);
+  }
 }

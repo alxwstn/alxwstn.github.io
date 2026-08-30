@@ -41,3 +41,11 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Helpful Links
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Using_multiple_backgrounds
+https://codeshack.io/svg-to-data-uri-converter/
+https://heroicons.com/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://css-tricks.com/complete-guide-css-grid-layout/
