@@ -12,6 +12,7 @@ const category = defineCollection({
       tag: z.string(),
       image: image(),
       imageAlt: z.string(),
+      priority: z.number(),
     }),
 });
 

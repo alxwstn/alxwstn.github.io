@@ -37,20 +37,22 @@ const categories = await getCollection("category");
     md:mx-auto
   >
     {
-      categories.map((category) => (
-        <div class="bg-white/15 border border-gray-300 shadow-xl rounded-lg m-2 p-2 flex flex-col items-center">
-          <a class="w-full" href={`projects/${category.id}`}>
-            <h2 class=" text-center">{category.data.name}</h2>
-          </a>
-          <a href={`projects/${category.id}`}>
-            <Image
-              src={category.data.image}
-              alt={category.data.imageAlt}
-              class="header-image w-auto md:max-w-64"
-            />
-          </a>
-        </div>
-      ))
+      categories
+        .sort((a, b) => a.data.priority - b.data.priority)
+        .map((category) => (
+          <div class="bg-white/40 border border-gray-300 shadow-xl rounded-lg m-2 p-2 flex flex-col items-center">
+            <a class="w-full" href={`projects/${category.id}`}>
+              <h2 class=" text-center">{category.data.name}</h2>
+            </a>
+            <a href={`projects/${category.id}`}>
+              <Image
+                src={category.data.image}
+                alt={category.data.imageAlt}
+                class="header-image w-auto md:max-w-64"
+              />
+            </a>
+          </div>
+        ))
     }
   </div>
 </BaseLayout>
