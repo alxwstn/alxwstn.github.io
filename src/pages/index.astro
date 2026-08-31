@@ -26,6 +26,10 @@ const categories = await getCollection("category");
     surveys, and GIS projects. I'm always looking for opportunities to grow and
     develop new skills. Click the categories below for a look at my work
     experience and projects.
+
+    <div class="card bg-amber-100 text-center">
+      🚧Pardon my mess! Site under construction🔨
+    </div>
   </div>
 
   <div slot="main-content" class="mx-2 mt-1 md:max-w-4xl md:mx-auto">
@@ -33,7 +37,7 @@ const categories = await getCollection("category");
       categories
         .sort((a, b) => a.data.priority - b.data.priority)
         .map((category) => (
-          <div class="bg-white/40 border border-gray-300 shadow-xl rounded-lg m-2 p-2 flex flex-col items-center">
+          <div class="bg-white/70 border border-gray-300 shadow-xl rounded-lg m-2 p-2 flex flex-col items-center">
             <a class="w-full" href={`projects/${category.id}`}>
               <h2 class=" text-center">{category.data.name}</h2>
             </a>
