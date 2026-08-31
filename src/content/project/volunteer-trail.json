@@ -1,0 +1,29 @@
+{
+  "title": "Volunteer Trail and Habitat Restoration Crew Member",
+  "organization": "San Dieguito River Park, San Diego River Park Foundation",
+  "location": "San Diego County, CA",
+  "categories": ["trail-work"],
+  "description": "Volunteer trail and habitat restoration work with multiple organizations in San Diego County.",
+  "duties": [
+    "Operates shovels, McLeods, picks, loppers, and hand saws to brush trail corridor and maintain tread",
+    "Identifies and manually removes invasive species",
+    "Assists with fencing and rockwork projects",
+    "Transports rocks, soil, and trash under direction of rangers and staff",
+    "Co-leads nature preserve hikes and riparian trash removal events"
+  ],
+  "images": [
+    {
+      "src": "../images/sdrpf-trash-1.jpg",
+      "alt": "three people tug on a rope in vegetation beneath a bridge"
+    },
+    {
+      "src": "../images/sdrp-invasive.jpg",
+      "alt": "smiling woman holds invasive radish aloft"
+    },
+    {
+      "src": "../images/sdrpf-trash-2.jpg",
+      "alt": "Group poses with truck full of trash bags"
+    }
+  ],
+  "priority": 2
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Trail Crew Member",
+  "organization": "Wood River Trails Coalition, USFS",
+  "location": "Hailey, ID",
+  "categories": ["trail-work"],
+  "description": "A six-month seasonal trail crew member position, funded by the WRTC and reporting to the US Forest Service Ketchum Ranger District. It is a mostly front-country crew, with several backcountry camping hitches.",
+  "duties": [
+    "Utilizes and services chainsaws and handsaws for brushing and bucking logs and hangups in the trail corridor",
+    "Maintains tread and drainage using picks, shovels, and hoes",
+    "Operates company trucks and mountain bikes",
+    "Hikes up to 10 miles per day to perform trail maintenance",
+    "Project work includes rock retainers, bridge construction, and drainage features"
+  ],
+  "images": [
+    {
+      "src": "../images/wrtc-sawing.jpg",
+      "alt": "image of woman operating a chainsaw to cut a log"
+    },
+    {
+      "src": "../images/wrtc-rock-work.jpg",
+      "alt": "image of a creek with rockwork bank feature"
+    },
+    {
+      "src": "../images/wrtc-crew-work.jpg",
+      "alt": "a woman holds bike that has a chainsaw and shovel mounted to its frame"
+    },
+    {
+      "src": "../images/wrtc-bike.jpg",
+      "alt": "a group of workers in hardhats using shovels and hammers with a mountain range in the background"
+    }
+  ],
+  "priority": 1
+}

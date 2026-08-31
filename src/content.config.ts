@@ -16,5 +16,20 @@ const category = defineCollection({
     }),
 });
 
+const project = defineCollection({
+  loader: glob({ base: "./src/content/project", pattern: "**/*.json" }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      organization: z.string(),
+      location: z.string(),
+      categories: z.array(z.string()),
+      description: z.string(),
+      duties: z.array(z.string()),
+      images: z.array(z.object({ src: image(), alt: z.string() })),
+      priority: z.number(),
+    }),
+});
+
 // Export a single `collections` object to register collection(s)
-export const collections = { category };
+export const collections = { category, project };

@@ -28,14 +28,7 @@ const categories = await getCollection("category");
     experience and projects.
   </div>
 
-  <div
-    slot="main-content"
-    class="mx-2 mt-1 md:max-w-4xl md:mx-auto"
-    mx-2
-    mt-1
-    md:max-w-4xl
-    md:mx-auto
-  >
+  <div slot="main-content" class="mx-2 mt-1 md:max-w-4xl md:mx-auto">
     {
       categories
         .sort((a, b) => a.data.priority - b.data.priority)
