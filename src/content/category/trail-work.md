@@ -4,4 +4,5 @@ tag: "trail-work"
 image: "../images/trail-work.jpg"
 imageAlt: "image of woman operating a chainsaw to cut a log"
 priority: 1
+certs: ["chainsaw-112", "wfr"]
 ---

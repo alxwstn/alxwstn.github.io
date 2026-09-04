@@ -12,19 +12,21 @@ const { data } = Astro.props.project;
     <div class="flex-1">
       <ul>
         <li>
-          <span class="font-bold">Organization: </span>{data.organization}
+          <span class="font-semibold">Organization: </span>{data.organization}
         </li>
         <li>
-          <span class="font-bold">Location: </span>{data.location}
+          <span class="font-semibold">Location: </span>{data.location}
         </li>
         <li>
-          <span class="font-bold">Overview: </span>{data.description}
+          <span class="font-semibold">Overview: </span>{data.description}
         </li>
       </ul>
     </div>
     <div class="flex-1">
-      <span class="font-bold">Details: </span>
-      <ul>{data.duties.map((duty) => <li>{duty}</li>)}</ul>
+      <span class="font-semibold">Details: </span>
+      <ul class="list-disc">
+        {data.duties.map((duty) => <li class="ml-5">{duty}</li>)}
+      </ul>
     </div>
   </div>
   <ul class="flex overflow-x-auto w-full">

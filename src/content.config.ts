@@ -13,6 +13,7 @@ const category = defineCollection({
       image: image(),
       imageAlt: z.string(),
       priority: z.number(),
+      certs: z.array(z.string()).optional(),
     }),
 });
 
@@ -31,5 +32,17 @@ const project = defineCollection({
     }),
 });
 
+const cert = defineCollection({
+  loader: file("./src/content/cert.json"),
+  schema: z.object({
+    title: z.string(),
+    organization: z.string(),
+    location: z.string(),
+    date: z.coerce.date().optional(),
+    priority: z.number(),
+  }),
+});
+console.log(cert);
+
 // Export a single `collections` object to register collection(s)
-export const collections = { category, project };
+export const collections = { category, project, cert };

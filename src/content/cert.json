@@ -1,0 +1,56 @@
+[
+  {
+    "id": "chainsaw-112",
+    "title": "Chainsaw: A Sawyer Felling and Bucking",
+    "organization": "U.S. Forest Service, NWCG",
+    "location": "Ketchum, ID",
+    "date": "2026-05-14",
+    "priority": 1
+  },
+  {
+    "id": "gis-davis",
+    "title": "Fundamentals of GIS Certification",
+    "organization": "UC Davis",
+    "location": "Coursera",
+    "date": "2025-10-08",
+    "priority": 2
+  },
+  {
+    "id": "wfr",
+    "title": "Wilderness First Responder (WFR) + CPR/AED",
+    "organization": "National Outdoor Leadership School",
+    "location": "Bishop, CA",
+    "date": "2025-11-20",
+    "priority": 3
+  },
+  {
+    "id": "cs-degree",
+    "title": "B.S., Computer & Information Science",
+    "organization": "University of Oregon",
+    "location": "Eugene, OR",
+    "priority": 4
+  },
+  {
+    "id": "biochem-minors",
+    "title": "Biology and Chemistry Minors",
+    "organization": "University of Oregon",
+    "location": "Eugene, OR",
+    "priority": 5
+  },
+  {
+    "id": "plant-prop-workshop",
+    "title": "Plant Propagation and Seed Collection Workshop",
+    "organization": "California Native Plant Society",
+    "location": "San Diego, CA",
+    "date": "2026-01-13",
+    "priority": 6
+  },
+  {
+    "id": "plant-maint-workshop",
+    "title": "Native Plant Maintenance Workshop",
+    "organization": "California Native Plant Society",
+    "location": "San Diego, CA",
+    "date": "2025-10-22",
+    "priority": 7
+  }
+]
