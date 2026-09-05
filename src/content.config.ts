@@ -28,6 +28,7 @@ const project = defineCollection({
       description: z.string(),
       duties: z.array(z.string()),
       images: z.array(z.object({ src: image(), alt: z.string() })),
+      dateStr: z.string(),
       priority: z.number(),
     }),
 });

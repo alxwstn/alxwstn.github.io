@@ -35,7 +35,8 @@ const { data } = Astro.props.project;
         data.images.map(({ src, alt }) => (
           <li class="h-72">
             <Image
-              class="max-h-full max-w-fit min-w-0 align-bottom shrink-0"
+              class="h-full max-w-fit align-bottom shrink-0"
+              layout="constrained"
               src={src}
               alt={alt}
             />

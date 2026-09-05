@@ -3,13 +3,16 @@
   "organization": "Wood River Trails Coalition, U.S. Forest Service",
   "location": "Hailey, ID",
   "categories": ["trail-work"],
-  "description": "A six-month seasonal trail crew member position, funded by the WRTC and reporting to the US Forest Service Ketchum Ranger District. It is a mostly front-country crew, with several backcountry camping hitches.",
+  "description": "A six-month seasonal trail crew member position, funded by the WRTC and reporting to the US Forest Service Ketchum Ranger District. We were a mostly-front-country crew maintaining trails in the Wood River Valley. We also worked several backcountry camping hitches in the summer.",
   "duties": [
-    "Utilizes and services chainsaws and handsaws for brushing and bucking logs and hangups in the trail corridor",
+    "Utilizes chainsaws and handsaws for brushing and bucking logs and hangups in the trail corridor",
     "Maintains tread and drainage using picks, shovels, and hoes",
+    "Services chainsaws and hand tools and reports inventory needs",
     "Operates company trucks and mountain bikes",
     "Hikes up to 10 miles per day to perform trail maintenance",
-    "Project work includes rock retainers, bridge construction, and drainage features"
+    "Project work includes rock retainers, bridge construction, and drainage features",
+    "Uses ArgGIS Field Maps to document and locate trail maintenance needs",
+    "Assists with volunteer trail work events"
   ],
   "images": [
     {
@@ -17,17 +20,22 @@
       "alt": "image of woman operating a chainsaw to cut a log"
     },
     {
+      "src": "../images/wrtc-bridge-decking.jpg",
+      "alt": "Three workers drill decking onto bridge stringers"
+    },
+    {
+      "src": "../images/wrtc-hiking-heavy.jpg",
+      "alt": "a woman hikes up a slope with backpack, shovel, and chainsaw"
+    },
+    {
+      "src": "../images/wrtc-hammer.jpg",
+      "alt": "a woman hammers a wooden spike"
+    },
+    {
       "src": "../images/wrtc-rock-work.jpg",
       "alt": "image of a creek with rockwork bank feature"
-    },
-    {
-      "src": "../images/wrtc-crew-work.jpg",
-      "alt": "a woman holds bike that has a chainsaw and shovel mounted to its frame"
-    },
-    {
-      "src": "../images/wrtc-bike.jpg",
-      "alt": "a group of workers in hardhats using shovels and hammers with a mountain range in the background"
     }
   ],
+  "dateStr": "April 2026 - October 2026",
   "priority": 1
 }
