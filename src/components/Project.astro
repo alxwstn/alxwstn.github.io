@@ -18,6 +18,9 @@ const { data } = Astro.props.project;
           <span class="font-semibold">Location: </span>{data.location}
         </li>
         <li>
+          <span class="font-semibold">Date: </span>{data.dateStr}
+        </li>
+        <li>
           <span class="font-semibold">Overview: </span>{data.description}
         </li>
       </ul>
@@ -35,7 +38,7 @@ const { data } = Astro.props.project;
         data.images.map(({ src, alt }) => (
           <li class="h-72">
             <Image
-              class="h-full max-w-fit align-bottom shrink-0"
+              class="h-full max-w-fit align-bottom shrink-0 bg-gray-200"
               layout="constrained"
               src={src}
               alt={alt}
