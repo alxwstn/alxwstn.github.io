@@ -24,14 +24,17 @@ const categories = await getCollection("category");
     <p>
       I'm an early-career natural resources professional with a background in
       software engineering and data analysis. I've maintained trails in forest
-      and chaparral landscapes, surveyed invasive and native plants, conducted
+      and chaparral ecosystems, surveyed invasive and native plants, conducted
       homeless censuses and surveys, mapped riparian trash and pollution data,
-      and analyzed GIS data. Whether it's identifying invasive species or
-      debugging a data pipeline, I like figuring out how systems work and
-      getting into the weeds.
+      and analyzed GIS information. Whether it's identifying invasive species or
+      debugging a data pipeline, I like getting into the weeds to figure out how
+      things work.
     </p>
     <p class="my-2">
-      Click the categories below for a look at my work experience and projects.
+      Take a look at my experience below and&nbsp;
+      <a href="mailto:alexwweston@gmail.com" class="underline">
+        send me an email here</a
+      >.
     </p>
 
     <div class="card bg-amber-100 text-center">
@@ -39,14 +42,19 @@ const categories = await getCollection("category");
     </div>
   </div>
 
-  <div slot="main-content" class="mx-2 mt-1 md:max-w-4xl md:mx-auto">
+  <div
+    slot="main-content"
+    class="mx-2 mt-1 md:max-w-4xl md:mx-auto md:flex md:flex-row md:flex-wrap md:justify-center"
+  >
     {
       categories
         .sort((a, b) => a.data.priority - b.data.priority)
         .map((category) => (
-          <div class="bg-white/70 border border-gray-300 shadow-xl rounded-lg m-2 p-2 flex flex-col items-center">
-            <a class="w-full" href={`projects/${category.id}`}>
-              <h2 class="mb-2 text-center">{category.data.name}</h2>
+          <div class=" m-2 p-2 flex flex-col items-center">
+            <a class="mb-2" href={`projects/${category.id}`}>
+              <h2 class="p-2 px-4 bg-white/80 border border-gray-300 shadow-xl rounded-lg text-center">
+                {category.data.name}
+              </h2>
             </a>
             <a href={`projects/${category.id}`}>
               <Image
