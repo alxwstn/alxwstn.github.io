@@ -1,8 +1,8 @@
 ---
 name: "Software & GIS"
 tag: "field-experience"
-image: "../images/field-work.jpg"
-imageAlt: "image of woman kayaking"
+image: "../images/raft_heatmap_square.png"
+imageAlt: "map of the San Diego River with parcels and heatmap"
 priority: 3
-certs: ["wfr", "biochem-minors", "plant-prop-workshop", "plant-maint-workshop"]
+certs: ["gis-davis", "cs-degree"]
 ---
