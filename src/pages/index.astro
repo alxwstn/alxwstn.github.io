@@ -21,14 +21,21 @@ const categories = await getCollection("category");
     slot="header-content"
     class="mt-2 card border border-gray-400 text-center"
   >
-    I'm an early-career natural resources professional with a background in
-    software and data analysis. I have experience working on trails, field
-    surveys, and GIS projects. I'm always looking for opportunities to grow and
-    develop new skills. Click the categories below for a look at my work
-    experience and projects.
+    <p>
+      I'm an early-career natural resources professional with a background in
+      software engineering and data analysis. I've maintained trails in forest
+      and chaparral landscapes, surveyed invasive and native plants, conducted
+      homeless censuses and surveys, mapped riparian trash and pollution data,
+      and analyzed GIS data. Whether it's identifying invasive species or
+      debugging a data pipeline, I like figuring out how systems work and
+      getting into the weeds.
+    </p>
+    <p class="my-2">
+      Click the categories below for a look at my work experience and projects.
+    </p>
 
     <div class="card bg-amber-100 text-center">
-      🚧Pardon my mess! Site under construction🔨
+      Available for part-time and full-time employment November 2026
     </div>
   </div>
 
@@ -39,7 +46,7 @@ const categories = await getCollection("category");
         .map((category) => (
           <div class="bg-white/70 border border-gray-300 shadow-xl rounded-lg m-2 p-2 flex flex-col items-center">
             <a class="w-full" href={`projects/${category.id}`}>
-              <h2 class=" text-center">{category.data.name}</h2>
+              <h2 class="mb-2 text-center">{category.data.name}</h2>
             </a>
             <a href={`projects/${category.id}`}>
               <Image
