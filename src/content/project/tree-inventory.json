@@ -3,9 +3,9 @@
   "organization": "Trees Idaho, City of Bellevue",
   "location": "Bellevue, ID",
   "categories": ["field-experience"],
-  "description": "Independently completed a survey of north Bellevue to map and collect data on all trees in the 80ft public right of way over the course of several days in the summer. I improved my tree identification skills and came to appreciate the difficulties associated with horticultural plant ID due to non-native landscaping!",
+  "description": "Independently completed a survey of a north Bellevue segment to map and collect data on all trees in the 80ft public right of way over the course of several weekends in the summer. I improved my tree identification skills and came to appreciate the difficulties associated with horticultural plant ID due to non-native landscaping!",
   "duties": [
-    "Independently collects multiple data points including DBH, disease status, tree identification, and photos in assigned segment",
+    "Collects multiple data points including DBH, disease status, tree identification, and photos in assigned segment",
     "Performs data QA post-survey to ensure accuracy",
     "Communicates project mission with members of the public"
   ],
@@ -16,11 +16,11 @@
     },
     {
       "src": "../images/trees-idaho-points.png",
-      "alt": "map showing gpx tracks"
+      "alt": "map showing data points"
     },
     {
       "src": "../images/trees-idaho-segment.png",
-      "alt": "map showing gpx tracks"
+      "alt": "map showing an area segment"
     },
     {
       "src": "../images/trees-idaho-gaia.png",
@@ -28,5 +28,5 @@
     }
   ],
   "dateStr": "June 2026 - August 2026",
-  "priority": 2
+  "priority": 3
 }

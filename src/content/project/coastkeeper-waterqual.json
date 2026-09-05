@@ -1,0 +1,24 @@
+{
+  "title": "Water Quality Monitoring Volunteer",
+  "organization": "San Diego Coastkeeper",
+  "location": "San Diego, CA",
+  "categories": ["field-experience"],
+  "description": "Water quality sampling program in Mission Bay and surrounding waterways. This was my first experience with environmental field work, and I was hooked!",
+  "duties": [
+    "Analyzes water samples using YSI Pro1020 Meter, salinity tester, and turbidimeter",
+    "Collects, records, and handles samples according to established QA protocols",
+    "Utilizes kayaks and ropes to access sampling sites"
+  ],
+  "images": [
+    {
+      "src": "../images/field-work.jpg",
+      "alt": "image of woman kayaking"
+    },
+    {
+      "src": "../images/coastkeeper-marketing.png",
+      "alt": "woman collecting water sample on marketing flyer"
+    }
+  ],
+  "dateStr": "February 2025 - December 2025",
+  "priority": 4
+}

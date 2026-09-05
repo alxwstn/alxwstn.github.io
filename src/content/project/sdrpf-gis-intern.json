@@ -1,0 +1,30 @@
+{
+  "title": "GIS Data and Field Intern",
+  "organization": "San Diego River Park Foundation",
+  "location": "San Diego, CA",
+  "categories": ["field-experience"],
+  "description": "A field data collection and analysis internship in the San Diego Riverbed. As a group of interns, we navigated challenging terrain to log trash and encampment data. We provided outreach to unhoused populations and communicated the project mission to members of the public. Back in the office, we QAed and analyzed field data to create reports for land managers. I also completed an independent <a href=\"/projects/software-and-gis\" class=\"underline\">GIS project and data analysis pipeline</a>",
+  "duties": [
+    "Conducts riparian field surveys and maps environmental data using mobile software",
+    "Documents pollution sites and estimates removal requirements as part of a field team",
+    "Performs data entry, QA, and GIS analysis tasks to support land managers",
+    "Surveys and provides basic outreach to unhoused populations",
+    "Independently engineered custom QGIS plugin to streamline heatmap generation and developed a Python pipeline POC to automate manual spreadsheet analysis tasks. <a href=\"/projects/software-and-gis\" class=\"underline\">Find out more about these projects here</a>."
+  ],
+  "images": [
+    {
+      "src": "../images/raft_mappler.png",
+      "alt": "image of map with data points"
+    },
+    {
+      "src": "../images/raft_mappler_phone.png",
+      "alt": "image of user interface for site collection"
+    },
+    {
+      "src": "../images/raft_survey_img.jpg",
+      "alt": "image of hand in the foreground pointing at trash data site"
+    }
+  ],
+  "dateStr": "December 2025 - March 2026",
+  "priority": 1
+}

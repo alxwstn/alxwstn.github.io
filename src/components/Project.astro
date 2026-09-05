@@ -21,14 +21,16 @@ const { data } = Astro.props.project;
           <span class="font-semibold">Date: </span>{data.dateStr}
         </li>
         <li>
-          <span class="font-semibold">Overview: </span>{data.description}
+          <span class="font-semibold">Overview: </span><span
+            set:html={data.description}
+          />
         </li>
       </ul>
     </div>
     <div class="flex-1">
       <span class="font-semibold">Details: </span>
       <ul class="list-disc">
-        {data.duties.map((duty) => <li class="ml-5">{duty}</li>)}
+        {data.duties.map((duty: string) => <li class="ml-5" set:html={duty} />)}
       </ul>
     </div>
   </div>

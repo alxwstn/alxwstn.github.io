@@ -1,0 +1,30 @@
+{
+  "title": "Field Botany Volunteer",
+  "organization": "U.S. Forest Service",
+  "location": "San Diego, CA",
+  "categories": ["field-experience"],
+  "description": "Field volunteer assisting a U.S. Forest Service botanist in the Cleveland National Forest. Katya Hernandez-Pol introduced me to rare and invasive plant surveys, more complex plant ID using dichotomous keys, and ArcGIS Field Maps. Before I left for my seasonal job in Idaho, she had begun sending me on solo missions to locate, ID, and remove invasive species. I also started keeping an informal field notebook during this time, a habit which I continue to this day.",
+  "duties": [
+    "Assists with rare plant and invasive species surveys using ArcGIS Field Maps",
+    "QAs collected data",
+    "Identifies native and invasive plants using field guides and the Jepson Manual",
+    "Independently performs hand-removal of invasive plants",
+    "Began project to create digital flashcard resource for practicing ID for the CNPS field botanist certification"
+  ],
+  "images": [
+    {
+      "src": "../images/bot-vol-handlens.jpg",
+      "alt": "handlens magnifying a plant leaf"
+    },
+    {
+      "src": "../images/bot-vol-notebook.jpg",
+      "alt": "field notebook page that includes dried plants and plant id information"
+    },
+    {
+      "src": "../images/bot-vol-arc.png",
+      "alt": "screenshot of ArcGIS Online that includes point data for Horkelia truncata"
+    }
+  ],
+  "dateStr": "December 2025 - April 2026",
+  "priority": 2
+}
