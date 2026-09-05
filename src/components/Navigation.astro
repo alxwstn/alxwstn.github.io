@@ -1,3 +1,10 @@
+---
+import Image from "astro/components/Image.astro";
+import { Image } from "astro:assets";
+import inatImg from "../content/icons/inat.png";
+import githubImg from "../content/icons/github.png";
+---
+
 <div
   class="grid grid-cols-[1fr_auto_1fr] grid-rows-1 p-2 border border-gray-400 bg-white navigation"
 >
@@ -24,7 +31,8 @@
   </div>
   <!-- adds a smidge of bot protection per https://spencermortensen.com/articles/email-obfuscation/#link-entity -->
   <!-- prettier-ignore -->
-  <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#108;&#101;&#120;&#119;&#119;&#101;&#115;&#116;&#111;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" class="email justify-self-end">
+  <div class="flex justify-self-end">
+  <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#108;&#101;&#120;&#119;&#119;&#101;&#115;&#116;&#111;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" class="email">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
@@ -39,5 +47,12 @@
         d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
       ></path>
     </svg>
-</a>
+  </a>
+  <a href="https://www.inaturalist.org/people/alxwstn" class="mx-1">
+    <Image src={inatImg} class="size-6" alt="iNaturalist logo" />
+  </a>
+  <a href="https://github.com/alxwstn" class="mx-1">
+    <Image src={githubImg} class="size-6" alt="iNaturalist logo" />
+  </a>
+  </div>
 </div>
