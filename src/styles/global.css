@@ -29,5 +29,6 @@
 
   .header-image {
     clip-path: circle(50%);
+    background-color: var(--color-gray-200);
   }
 }

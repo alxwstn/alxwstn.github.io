@@ -20,7 +20,12 @@ const { pageTitle, image, imageAlt, pageHeader } = Astro.props;
     <div class="wip-bg flex-grow">
       <div class="flex flex-col mx-2 mt-1 md:flex-row md:max-w-4xl md:mx-auto">
         <div class="md:flex-1 self-center mx-2">
-          <Image src={image} alt={imageAlt} class="header-image w-auto" />
+          <Image
+            layout="constrained"
+            src={image}
+            alt={imageAlt}
+            class="header-image w-auto"
+          />
         </div>
         <div class="m-2 md:flex-2">
           <h1 class="card border border-gray-400 text-center">{pageHeader}</h1>
