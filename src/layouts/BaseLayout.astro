@@ -15,20 +15,36 @@ const { pageTitle, image, imageAlt, pageHeader } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
   </head>
-  <body class="wip-bg">
+  <body class="flex flex-col h-screen">
     <Navigation />
-    <div class="flex flex-col mx-2 mt-1 md:flex-row md:max-w-4xl md:mx-auto">
-      <div class="md:flex-1 self-center mx-2">
-        <Image src={image} alt={imageAlt} class="header-image w-auto" />
+    <div class="wip-bg flex-grow">
+      <div class="flex flex-col mx-2 mt-1 md:flex-row md:max-w-4xl md:mx-auto">
+        <div class="md:flex-1 self-center mx-2">
+          <Image src={image} alt={imageAlt} class="header-image w-auto" />
+        </div>
+        <div class="m-2 md:flex-2">
+          <h1 class="card border border-gray-400 text-center">{pageHeader}</h1>
+          <slot name="header-content" />
+        </div>
+        <slot />
       </div>
-      <div class="m-2 md:flex-2">
-        <h1 class="card border border-gray-400 text-center">{pageHeader}</h1>
-        <slot name="header-content" />
+      <div>
+        <slot name="main-content" />
       </div>
-      <slot />
     </div>
-    <div>
-      <slot name="main-content" />
+    <div
+      class="flex flex-col p-2 sm:flex-row bg-white justify-center items-center"
+    >
+      <div>© 2026 Alexandra Walton Weston</div>
+      <div class="mx-2 hidden sm:block">&#8226;</div>
+      <div>
+        Built by me using <a
+          href="text-deco https://astro.build/"
+          class="underline">Astro 7</a
+        > and <a href="https://tailwindcss.com/" class="underline"
+          >Tailwind CSS</a
+        >
+      </div>
     </div>
   </body>
 </html>
