@@ -8,7 +8,7 @@ const {
   image,
   imageAlt,
   pageHeader,
-  description = "Alexandra Walton Weston's profile and project portfolio",
+  description = "Natural Resources professional project portfolio",
 } = Astro.props;
 ---
 
@@ -21,7 +21,7 @@ const {
       name="google-site-verification"
       content="ZhldTBP7cI_JBBLxFwn08nCRLrLxn_CptURnUK0wycE"
     />
-    <meta property="og:title" content="pageTitle" />
+    <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={new URL("/og-image.jpg", Astro.site)} />
     <meta property="og:url" content={Astro.url} />
