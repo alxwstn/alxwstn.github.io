@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alxwstn.github.io/sitemap-index.xml
