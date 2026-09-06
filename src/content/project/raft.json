@@ -1,0 +1,28 @@
+{
+  "title": "raft_heatmap QGIS plugin",
+  "organization": "San Diego River Park Foundation",
+  "location": "San Diego, CA",
+  "categories": ["software-and-gis"],
+  "description": "Plugin that streamlines custom heatmap generation for SDRPF River Assessment Field Team (RAFT) data. The plugin allows a user to select a CSV export from the RAFT program, filter data pins by category, and visualize pins as a heatmap. Ideal for generating maps of activity hotpots for presentations and as a starting point for further analysis. This project also serves as an example of QGIS plugin development for future RAFT interns.",
+  "duties": [
+    "Technology: Python, QGIS Plugin templater, QML, PyQt, Sphinx",
+    "See the <a href=\"https://alxwstn.github.io/RAFTHeatmapMkr/index.html\" class=\"underline\">Project Documentation</a> for additional installation, usage, and development information",
+    "Peruse the <a href=\"https://github.com/alxwstn/RAFTHeatmapMkr\" class=\"underline\">Source code</a>"
+  ],
+  "images": [
+    {
+      "src": "../images/raft_heatmap_usage.png",
+      "alt": "screenshot of plugin usage"
+    },
+    {
+      "src": "../images/raft_heatmap_output.png",
+      "alt": "screenshot of plugin output"
+    },
+    {
+      "src": "../images/raft_heatmap_doc.png",
+      "alt": "screenshot of plugin documentation site"
+    }
+  ],
+  "dateStr": "December 2025 - March 2026",
+  "priority": 1
+}

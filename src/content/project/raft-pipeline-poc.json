@@ -1,0 +1,24 @@
+{
+  "title": "RAFT Data Analysis Automation",
+  "organization": "San Diego River Park Foundation",
+  "location": "San Diego, CA",
+  "categories": ["software-and-gis"],
+  "description": "The data analysis portion of my <a href=\"/projects/field=experience\" class=\"underline\">GIS Data and Field Internship</a> involved several manual spreadsheet steps and a data join in QGIS. Once I got the hang of the manual process, I decided to automate the manual steps with Python. Although there is not impetus to integrate automation into this workflow at this time for this internship, I found it to be a useful exercise in applying my software skills to a common data problem.",
+  "duties": [
+    "Technology: Python, pandas, Google API Python Client, and the QGIS CLI",
+    "Generates an HTML page so that spreadsheet rows that can easily be copied and pasted into the manual process's output spreadsheet",
+    "<a href=\"https://github.com/alxwstn/raft\" class=\"underline\">Github repository with Proof of Concept implementation</a>"
+  ],
+  "images": [
+    {
+      "src": "../images/raft_auto_output_1.png",
+      "alt": "screenshot of simply-formatted web page containing data and copy buttons"
+    },
+    {
+      "src": "../images/raft_auto_output_2.png",
+      "alt": "screenshot of simply-formatted web page containing data and copy buttons"
+    }
+  ],
+  "dateStr": "December 2025 - March 2026",
+  "priority": 3
+}

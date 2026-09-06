@@ -1,0 +1,26 @@
+{
+  "title": "Senior Software Engineer",
+  "organization": "Various",
+  "location": "U.S.: Coast to Coast",
+  "categories": ["software-and-gis"],
+  "description": "In my previous career, I worked across industries, growing my skill set until I became a full-stack (server to fronted) senior software engineer with significant project oversight. I was ready for a career change, but I still very much enjoy coding and problem solving! Here I'll highlight a few projects I'm proud to have worked on over the years.",
+  "duties": [
+    "Technology: Too much to list! Enduring favorites: Python, Jupyter Notebooks, Typescript, HTML/CSS, SQL, React, and Git",
+    "Fair Neuroimaging Lab: I built a Python pipeline wrapper to run the Human Connectome Pipeline for processing fMRI data on the OHSU HPC cluster. This pipeline was able to automatically resubmit jobs when they failed unexpectedly.",
+    "Memorial Sloan Kettering Cancer Center: I developed a visualization tool in D3.js that was used by nurses in a pilot study for proactive care for chemo patients who reported worsening symptoms in daily web-based surveys. This pilot showed a significant reduction in ER visits by chemo patients following treatment!",
+    "Janelia Research Institute: I maintained a visualization tool that was used to evaluate data quality of automated neuroimaging data segmentation using Three.js",
+    "Primary Kids: as part of a small team, overhauled an entire e-commerce site to reach full accessability compliance for visually-impaired users"
+  ],
+  "images": [
+    {
+      "src": "../images/software-hcp.png",
+      "alt": "Workflow diagram for the HCP pipeline"
+    },
+    {
+      "src": "../images/software-segeval.png",
+      "alt": "Data dashboard that includes a colorful 3D visualization"
+    }
+  ],
+  "dateStr": "Prior to 2025",
+  "priority": 3
+}
