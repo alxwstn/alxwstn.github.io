@@ -9,7 +9,13 @@ const { pageTitle, image, imageAlt, pageHeader } = Astro.props;
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <!-- seo -->
     <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    <meta
+      name="google-site-verification"
+      content="ZhldTBP7cI_JBBLxFwn08nCRLrLxn_CptURnUK0wycE"
+    />
+    <!-- end seo -->
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌱</text></svg>"
