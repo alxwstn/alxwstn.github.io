@@ -8,7 +8,7 @@ const {
   image,
   imageAlt,
   pageHeader,
-  description = "Natural Resources professional project portfolio",
+  description = "Natural Resources Professional project portfolio",
 } = Astro.props;
 ---
 
@@ -25,31 +25,33 @@ const {
     <meta property="og:description" content={description} />
     <meta property="og:image" content={new URL("/og-image.jpg", Astro.site)} />
     <meta property="og:url" content={Astro.url} />
+    <meta name="description" content={description} /></head
+  >.
 
-    <script
-      type="application/ld+json"
-      set:html={JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "Person",
-        name: "Alexandra Walton Weston",
-        url: "https://alxwstn.github.io",
-        jobTitle:
-          "Natural Resources Professional: Trail work, Field surveys, Data Analysis, GIS",
-        sameAs: [
-          "https://github.com/alxwstn",
-          "https://www.inaturalist.org/people/alxwstn",
-        ],
-      })}
-    />
-    <!-- end SEO -->
-    <link
-      rel="icon"
-      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌱</text></svg>"
-    />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{pageTitle}</title>
-  </head>
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Alexandra Walton Weston",
+      url: "https://alxwstn.github.io",
+      jobTitle:
+        "Natural Resources Professional: Trail work, Field surveys, Data Analysis, GIS",
+      sameAs: [
+        "https://github.com/alxwstn",
+        "https://www.inaturalist.org/people/alxwstn",
+      ],
+    })}
+  />
+  <!-- end SEO -->
+  <link
+    rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌱</text></svg>"
+  />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="generator" content={Astro.generator} />
+  <title>{pageTitle}</title>
+
   <body class="flex flex-col h-screen">
     <Navigation />
     <div class="wip-bg grow">
@@ -87,4 +89,5 @@ const {
       </div>
     </div>
   </body>
+
 </html>
